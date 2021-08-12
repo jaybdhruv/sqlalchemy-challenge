@@ -77,7 +77,7 @@ def precipitation():
     # Query Date and Precipitation values for that one year
     results = session.query(Measurement.date, Measurement.prcp).\
         filter(Measurement.date >= previous_year_date.date()).\
-            order_by(Measurement.date).all()
+        group_by(Measurement.date).order_by(Measurement.date).all()
     
     session.close()
 
