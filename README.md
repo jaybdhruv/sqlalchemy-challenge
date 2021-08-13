@@ -91,7 +91,6 @@ After completing my initial analysis, designed a Flask API based on the queries 
 
 <h2>Temperature Analysis</h2>
 
-I also used unpaired t-test to see if there is a meaningful difference between the temperature in, for example, June and December?
+I also used unpaired t-test to see if there is a meaningful difference between the temperature in, for example, June and December.
 
-My analysis and related jupyter notebook is available in repo. 
-
+My analysis and related jupyter notebook is available in repo.
